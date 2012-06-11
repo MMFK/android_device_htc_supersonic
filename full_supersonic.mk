@@ -58,6 +58,13 @@ PRODUCT_PACKAGES := \
     sensors.supersonic \
     camera.qsd8k
 
+# Additional Apps
+PRODUCT_PACKAGES := \
+    Torch \
+    Usb \
+    GooManager \
+    PopNetwork
+
 # USB
 ADDITIONAL_DEFAULT_PROPERTIES += \
     persist.sys.usb.config=mass_storage \
