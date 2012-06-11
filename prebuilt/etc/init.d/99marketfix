@@ -1,0 +1,4 @@
+#!/system/bin/sh
+# Possible fix for market
+
+mkdir /cache/download
