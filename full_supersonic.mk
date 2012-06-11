@@ -118,3 +118,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 PRODUCT_NAME := cm_supersonic
 PRODUCT_DEVICE := supersonic
 PRODUCT_MODEL := PC36100
+
+# Goo updater app
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.goo.developerid=jmz \
+ro.goo.rom=cm9_$(TARGET_PRODUCT) \
+ro.goo.version=7
