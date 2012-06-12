@@ -56,6 +56,12 @@ PRODUCT_COPY_FILES += \
 #
 # Packages needed for Supersonic
 #
+# Sensors
+PRODUCT_PACKAGES := \
+    gps.supersonic \
+    lights.supersonic \
+    sensors.supersonic \
+    camera.qsd8k
 
 # Additional Apps
 PRODUCT_PACKAGES := \
@@ -111,7 +117,6 @@ $(call inherit-product, device/htc/supersonic/media_a1026.mk)
 $(call inherit-product, device/htc/qsd8k-common/qsd8k.mk)
 
 $(call inherit-product-if-exists, vendor/htc/supersonic/supersonic-vendor.mk)
-$(call inherit-product-if-exists, vendor/htc/supersonic/supersonic_apps.mk)
 
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
