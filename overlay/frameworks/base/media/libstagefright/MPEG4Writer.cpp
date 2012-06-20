@@ -1996,8 +1996,11 @@ status_t MPEG4Writer::Track::threadEntry() {
             previousPausedDurationUs += pausedDurationUs - lastDurationUs;
             mResumed = false;
         }
-
-        timestampUs -= previousPausedDurationUs;
+        if (timestampUs < previousPausedDurationUs) {
+            timestampUs -= mStartTimestampUs;
+        } else {
+            timestampUs -= previousPausedDurationUs;
+        }
         CHECK(timestampUs >= 0);
         if (!mIsAudio && hasBFrames && 0) {
             /*
