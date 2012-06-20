@@ -71,7 +71,8 @@ PRODUCT_PACKAGES := \
 	
 # OMX Stuff
 PRODUCT_PACKAGES := \
-    libmm-omxcore
+    libmm-omxcore \
+	liboverlay
 	
 
 # USB
