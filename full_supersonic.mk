@@ -69,6 +69,12 @@ PRODUCT_PACKAGES := \
     Usb \
     GooManager \
     PopNetwork
+	
+# OMX Stuff
+PRODUCT_PACKAGES := \
+    libmm-omxcore \
+	libdivxdrmdecrypt
+	
 
 # USB
 ADDITIONAL_DEFAULT_PROPERTIES += \
