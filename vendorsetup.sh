@@ -1,0 +1,2 @@
+add_lunch_combo cm_supersonic-userdebug
+add_lunch_combo cm_supersonic-eng
