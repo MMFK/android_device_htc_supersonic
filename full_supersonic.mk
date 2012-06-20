@@ -60,8 +60,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES := \
     gps.supersonic \
     lights.supersonic \
-    sensors.supersonic \
-    camera.qsd8k
+    sensors.supersonic
 
 # Additional Apps
 PRODUCT_PACKAGES := \
@@ -72,8 +71,7 @@ PRODUCT_PACKAGES := \
 	
 # OMX Stuff
 PRODUCT_PACKAGES := \
-    libmm-omxcore \
-	libdivxdrmdecrypt
+    libmm-omxcore
 	
 
 # USB
