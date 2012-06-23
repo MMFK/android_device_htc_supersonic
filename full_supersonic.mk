@@ -64,8 +64,7 @@ PRODUCT_PACKAGES := \
 	
 # OMX Stuff
 PRODUCT_PACKAGES := \
-    libmm-omxcore \
-	liboverlay
+    libmm-omxcore
 	
 
 # USB
@@ -128,4 +127,4 @@ PRODUCT_MODEL := PC36100
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.goo.developerid=jmz \
 ro.goo.rom=$(TARGET_PRODUCT) \
-ro.goo.version=7
+ro.goo.version=8
