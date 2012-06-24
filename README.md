@@ -2,7 +2,7 @@ CM9 for the EVO 4G
 
 ## Info
 
-||
+|||
 |-----------------------------------:|:--------------------------|
 |**Discussion thread**: | http://forum.xda-developers.com/showthread.php?t=1625096
 |**Bug List**:		| http://code.google.com/p/cm9-supersonic/
