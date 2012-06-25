@@ -14,4 +14,6 @@
   <project name="jmztaylor/android_device_htc_qsd8k-common.git" path="device/htc/qsd8k-common" revision="ics"/>
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="jmztaylor/android_frameworks_base.git" path="frameworks/base" revision="ics" />
+  <remove-project name="CyanogenMod/android_external_webkit" path="external_webkit" revision="ics" />
+  <project name="jmztaylor/android_external_webkit" path="external/webkit" revision="ics" />
 </manifest>
