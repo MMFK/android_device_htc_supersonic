@@ -78,5 +78,5 @@ TARGET_PREBUILT_KERNEL  := device/htc/supersonic/prebuilt/root/kernel
 
 ##Testing
 TARGET_BOOTANIMATION_PRELOAD :=true
-
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
+ENABLE_WEBGL := true
