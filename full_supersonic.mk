@@ -65,7 +65,10 @@ PRODUCT_PACKAGES := \
 	
 # OMX Stuff
 PRODUCT_PACKAGES := \
-    libmm-omxcore
+    libmm-omxcore \
+    Torch \
+    GooManager \
+    PopNetwork
 	
 
 # USB
@@ -113,7 +116,6 @@ $(call inherit-product, device/htc/supersonic/media_a1026.mk)
 
 # Common qsd8k stuff
 $(call inherit-product, device/htc/qsd8k-common/qsd8k.mk)
-$(call inherit-product, device/htc/supersonic/supersonic2.mk)
 
 $(call inherit-product-if-exists, vendor/htc/supersonic/supersonic-vendor.mk)
 
