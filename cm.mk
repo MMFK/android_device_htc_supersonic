@@ -15,7 +15,7 @@ PRODUCT_BRAND := sprint
 PRODUCT_DEVICE := supersonic
 PRODUCT_MODEL := PC36100
 PRODUCT_MANUFACTURER := HTC
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_supersonic BUILD_FINGERPRINT=sprint/htc_supersonic/supersonic:2.3.5/GRJ90/239674.3:user/release-keys PRIVATE_BUILD_DESC="4.67.651.3 CL239674 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_supersonic BUILD_FINGERPRINT=sprint/htc_supersonic/supersonic:2.3.3/GRI40/61076:user/release-keys PRIVATE_BUILD_DESC="4.24.651.1 CL61076 release-keys"
 
 PRODUCT_PACKAGES += \
     Camera
