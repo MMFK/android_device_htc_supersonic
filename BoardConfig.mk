@@ -80,4 +80,3 @@ TARGET_PREBUILT_KERNEL  := device/htc/supersonic/prebuilt/root/kernel
 TARGET_BOOTANIMATION_PRELOAD :=true
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
 ENABLE_WEBGL := true
-TARGET_QCOM_HDMI_OUT := true
