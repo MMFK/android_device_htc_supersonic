@@ -130,4 +130,4 @@ PRODUCT_MODEL := PC36100
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.goo.developerid=jmz \
 ro.goo.rom=$(TARGET_PRODUCT) \
-ro.goo.version=16
+ro.goo.version=17
